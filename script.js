@@ -1,6 +1,6 @@
 // api url
 const api_url =
-    "https://newsapi.org/v2/top-headlines?country=us&apiKey=300be0372ce64ead840346911752051c";
+    "https://newsapi.org/v2/everything?q=Apple&from=2022-12-07&sortBy=popularity&apiKey=d8d214126fd546138dacd5827652962f";
 
 // Defining async function
 async function getapi(url) {
