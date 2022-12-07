@@ -1,0 +1,93 @@
+.images{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.links{
+    color: black;
+    font-family: Georgia, Verdana, Times, Calibri ;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.links:hover{
+    text-decoration: underline;
+    color: black;
+}
+.written_by{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#navigation_bar{
+    padding: 20px;
+}
+#center_heading{
+    font-family: Georgia, Verdana, Times, Calibri;
+    font-size: 24px;
+    color: black;
+    font-weight: bold;
+}
+.numbers{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.vertical_line{
+    border-left: 6px solid green;
+    height: 500px;
+}
+.footer{
+    background-color: rgb(245, 245, 245);
+    padding: 10px;
+    margin-bottom: 1px;
+}
+#footer_icons{
+    font-size: 30px;
+    margin-right: 20px;
+    color: white;
+}
+#footer_title{
+    font-size: 25px;
+    color: white;
+}
+#footer_icons:hover{
+    color: blue;
+}
+#all_blogs{
+    color: white;
+    font-weight: bold;
+}
+.nav_blog_btn:hover{
+    color: black;
+}
+.heading-1{
+    text-align: center;
+    margin: 30px;
+}
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+input[readonly] {
+  background-color: white !important;
+  cursor: text !important;
+}
+
+#blog_details{
+    text-decoration: none;
+    
+}

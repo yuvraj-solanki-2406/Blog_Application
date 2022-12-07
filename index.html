@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog's</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark" id="navigation_bar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <h2>Yuvraj Blogs</h2>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                </ul>
+                <span class="navbar-text nav_blog_btn">
+                    <a href="blogs.php" class="btn btn-outline-light nav_blog_btn">
+                        <span class="nav_blog_btn">View all Blogs</span>
+                    </a>
+                </span>
+            </div>
+        </div>
+    </nav>
+
+    <div class="col-md-12 container-fluid">
+        <div class="row">
+            <div class="col-md-9">
+                <img src="Images/today_picks.jpg" alt="today picks" width="100%" height="35px" class="my-3">
+            </div>
+            <div class="col-md-3">
+                <img src="Images/most_recent.jpg" alt="most recent" width="100%" height="35px" class="my-3">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 bordered my-3">
+                <div class="container-fluid">
+                    <a href="https://www.theverge.com/2022/12/2/23490114/us-army-call-of-duty-league-sponsorship-activision-blizzard-allegations"
+                        class="links">
+
+                        <img src="Images/today_picks_1.jpg" alt="US Army paused a Call of Duty" style="width: 90%; height: 170px;">
+                        The US Army paused a Call of Duty League sponsorship after allegations against Activision came
+                        to light
+                    </a>
+                    <p class="written_by">By: Yuvraj Solanki</p>
+                </div>
+
+                <hr width="80%">
+
+                <div class="container-fluid mt-4">
+                    <a href="https://beamstart.com/news/how-chinese-netizens-swamped-chinas-16700748017195"
+                        class="links">
+
+                        <img src="https://media.wired.com/photos/63892a8daa4a1f0bae395b7f/16:9/pass/Protests-In-China-Over-Zero-Covid-19-Policy-Business-1445197995.jpg"
+                            style="width: 90%; height: 170px;">
+                        How Chinese Netizens Swamped China’s Internet Controls
+                    </a>
+                    <p class="written_by">By: Yuvraj Solanki</p>
+                </div>
+            </div>
+
+            <div class="col-md-6 bordered my-3">
+                <div class="container-fluid">
+                    <a href="https://www.hindustantimes.com/india-news/iaf-considers-replacing-an-32-with-c-295-to-modernise-fleet-101670008161968.html"
+                        style="text-decoration: none;">
+                        <img src="Images/IAF-center_blog.jpg" alt="Iaf" class="images"
+                            style="width: 100%; height: 370px;">
+                        <p id="center_heading" class="links">IAF considers replacing AN-<span class="numbers">32</span>
+                            with C-<span class="numbers">295</span> to modernise fleet</p>
+                    </a>
+                    <p>
+                        The C-295 medium transport aircraft, which will be manufactured in India jointly by Tata
+                        Advanced Systems Limited (TASL) and European firm Airbus Defence and Space, comes as a
+                        replacement for the IAF’s fleet of ageing Avro-748 planes that entered service in the early
+                        1960s... <a
+                            href="https://www.hindustantimes.com/india-news/iaf-considers-replacing-an-32-with-c-295-to-modernise-fleet-101670008161968.html">more</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-3 bordered my-3">
+                <div class="container-fluid col-md-12">
+                    <div class="row my-3">
+                        <div class="col-md-7">
+                            <a href="https://www.theguardian.com/technology/2022/jan/21/activision-blizzard-employees-union" class="links"
+                                style="font-size: 16px;">Activision Blizzard Has Another Union on Its Hands. Now What?
+                            </a>
+                        </div>
+                        <div class="col-md-5">
+                            <img src="Images/most_recent_1.jpg" alt="" srcset="" style="width: 100%; height: 100px;">
+                        </div>
+                    </div>
+                    <hr class="my-3">
+
+                    <div class="row my-3">
+                        <div class="col-md-7">
+                            <a href="https://www.theregister.com/2022/12/05/compromised_android_keys/" class="links"
+                                style="font-size: 16px;">Android Phone's Encryption Keys Stolen and Used in Malware
+                            </a>
+                        </div>
+                        <div class="col-md-5">
+                            <img src="Images/most_recent_2.jpg" alt="" srcset="" style="width: 100%; height: 100px;">
+                        </div>
+                    </div>
+                    <hr class="my-3">
+
+                    <div class="row my-3">
+                        <div class="col-md-7">
+                            <a href="https://www.theverge.com/2022/12/2/23488771/wind-energy-pollution-study-biden-environmental-justice"
+                                class="links" style="font-size: 16px;">Why wind energy isn’t living to its
+                                pollution-preventing potential
+                            </a>
+                        </div>
+                        <div class="col-md-5">
+                            <img src="Images/most_recent_3.jpg" alt="" srcset="" style="width: 100%; height: 100px;">
+                        </div>
+                    </div>
+                    <hr class="my-3">
+
+                    <div class="row my-3">
+                        <div class="col-md-7">
+                            <a href="https://www.fastcompany.com/90814890/how-to-make-the-most-of-the-brain-you-have-according-to-neuroscience"
+                                class="links" style="font-size: 16px;">How to make the most of the brain you have,
+                                according to neuroscience
+                            </a>
+                        </div>
+                        <div class="col-md-5">
+                            <img src="Images/most_recent_4.jpg" alt="" srcset="" style="width: 100%; height: 100px;">
+                        </div>
+                    </div>
+                    <hr class="my-3">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <div class="col-md-4 d-flex align-items-center">
+                <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                    <svg class="bi" width="30" height="24">
+                        <use xlink:href="#bootstrap"></use>
+                    </svg>
+                </a>
+                <span class="text-muted" id="footer_title">© Yuvraj Solanki</span>
+            </div>
+
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex" id="footer_icons">
+                <li class="ms-3"><a class="text-muted" href="https://www.linkedin.com/in/yuvraj-solanki-6914701b4/"
+                        target="_blank"><i class="fa-brands fa-linkedin"></i>
+                    </a></li>
+                <li class="ms-3"><a class="text-muted" href="https://github.com/yuvraj-solanki-2406?tab=repositories"
+                        target="_blank"><i class="fa-brands fa-github"></i>
+                    </a></li>
+                <li class="ms-3"><a class="text-muted" href="https://youtu.be/hbaCCmqJ3Yo" target="_blank"><i
+                            class="fa-brands fa-youtube"></i>
+                    </a></li>
+                <li class="ms-3"><a class="text-muted" href="https://yuvrajsinghsolanki0.wixsite.com/yuvraj-portfolio"
+                        target="_blank"><i class="fa-solid fa-globe"></i>
+                    </a></li>
+            </ul>
+        </footer>
+    </div>
+
+
+
+</body>
+
+</html>
